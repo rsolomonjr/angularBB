@@ -2,7 +2,7 @@
 
 angular.module('todoListApp')
 .service('dataService', function($http) {
-  this.helloWorld = function() {
+  this.todoListApp = function() {
     console.log("This is the data service's method!");
   };
   this.getTodos = function(callback){
